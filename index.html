@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>유통기한 매니저 · S.H Lab</title>
+<meta name="description" content="바코드 한 번으로 등록하고, 유통기한 임박을 알림으로 알려 주는 가정·매장용 앱">
+<link rel="icon" href="icon.png">
+<style>
+  :root { --red: #CC2222; --ink: #1A1A1A; --sub: #5B616E; --bg: #F7F7F7; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: system-ui, -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; background: var(--bg); color: var(--ink); line-height: 1.6; }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 16px; }
+  header { display: flex; align-items: center; gap: 16px; }
+  header img { width: 72px; height: 72px; border-radius: 16px; background: #fff; }
+  h1 { margin: 0; font-size: 26px; }
+  .by { color: var(--sub); font-size: 14px; }
+  .card { background: #fff; border: 1px solid #E5E5E5; border-radius: 16px; padding: 20px; margin-top: 24px; }
+  ul { padding-left: 20px; margin: 8px 0 0; }
+  a.btn { display: inline-block; margin-top: 24px; background: var(--red); color: #fff; text-decoration: none; padding: 12px 20px; border-radius: 12px; font-weight: 700; }
+  footer { margin-top: 32px; font-size: 14px; color: var(--sub); }
+  footer a { color: var(--sub); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="유통기한 매니저 아이콘">
+    <div>
+      <h1>유통기한 매니저</h1>
+      <div class="by">S.H Lab</div>
+    </div>
+  </header>
+  <div class="card">
+    바코드 한 번으로 상품을 등록하고, 유통기한이 다가오면 알림으로 알려 드려요.
+    <ul>
+      <li>바코드 스캔 자동 등록, 유통기한 카메라 인식</li>
+      <li>임박 알림·달력·소진/폐기 통계</li>
+      <li>가족·직원과 함께 쓰기</li>
+      <li>매장용: 발주 관리, 가격표 만들기, 원가 계산</li>
+    </ul>
+  </div>
+  <a class="btn" href="https://play.google.com/store/apps/details?id=com.shlab.expirykeeper">Google Play에서 받기</a>
+  <footer>
+    <a href="https://ocbwjiziwzkgkwzzkvvf.supabase.co/storage/v1/object/public/product-images/privacy-policy.txt">개인정보처리방침</a>
+    · 문의 <a href="mailto:ef0070@gmail.com">ef0070@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>
